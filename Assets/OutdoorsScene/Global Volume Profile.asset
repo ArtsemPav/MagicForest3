@@ -346,13 +346,13 @@ MonoBehaviour:
     m_Value: 0.95
   ghostingReduction:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   perceptualBlending:
     m_OverrideState: 1
     m_Value: 1
   shadows:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   shadowResolution:
     m_OverrideState: 1
     m_Value: 512
