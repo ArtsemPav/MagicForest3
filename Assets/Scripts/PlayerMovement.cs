@@ -30,6 +30,11 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        if(controller.isGrounded)
+        {
+            anim.SetFloat("X", Input.GetAxis("Horizontal"));
+            anim.SetFloat("Y", Input.GetAxis("Vertical"));
+        }
         isGrounded = Physics.CheckSphere(GroundCheck.position, groundDistance, groundMask);
         if(isGrounded && velocity.y < 0)
         {
@@ -42,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHieght * gravity);
+            anim.SetTrigger("Jump");
             Debug.Log("Jump");
         }
 
@@ -62,10 +68,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Sprint
-        if(Input.GetKeyDown(KeyCode.LeftShift))
+        if(Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 4 * speed1;
-            Debug.Log("Sprint");
+            speed = 2 * speed1;
+            anim.SetFloat("Y", 2);
+            Debug.Log(speed);
         }
         else 
         {
