@@ -6,7 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Transform GroundCheck;
+    public Transform WaterCheck;
     public LayerMask groundMask;
+    public LayerMask waterMask;
     public float speed1 = 10f;
     public float gravity = 9.8f;
     public float playerHeight = 1.8f;
@@ -18,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
 
     private bool isGrounded;
+    private bool isWatered;
     private float speed;
 
     // Start is called before the first frame update
