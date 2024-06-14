@@ -27,7 +27,7 @@ QualitySettings:
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 1
     vSyncCount: 1
-    realtimeGICPUUsage: 25
+    realtimeGICPUUsage: 75
     lodBias: 1
     maximumLODLevel: 0
     streamingMipmapsActive: 0
@@ -90,6 +90,7 @@ QualitySettings:
     - Android
     - iPhone
     - WebGL
+    - Standalone
   - serializedVersion: 2
     name: Performant
     pixelLightCount: 0
@@ -132,6 +133,7 @@ QualitySettings:
     - iPhone
     - Android
     - Server
+    - Standalone
   - serializedVersion: 2
     name: Level 3
     pixelLightCount: 0
@@ -174,6 +176,7 @@ QualitySettings:
     - iPhone
     - Android
     - Server
+    - Standalone
   m_PerPlatformDefaultQuality:
     Android: 0
     CloudRendering: 0

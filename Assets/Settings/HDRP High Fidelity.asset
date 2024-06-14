@@ -17,7 +17,7 @@ MonoBehaviour:
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
-    supportSSGI: 0
+    supportSSGI: 1
     supportSubsurfaceScattering: 1
     sssSampleBudget:
       m_Values: 140000002800000050000000
@@ -33,24 +33,24 @@ MonoBehaviour:
     colorBufferFormat: 48
     supportCustomPass: 1
     customBufferFormat: 12
-    supportedLitShaderMode: 2
+    supportedLitShaderMode: 3
     planarReflectionResolution:
       m_Values: 000100000004000000080000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
-    supportDecalLayers: 0
-    supportSurfaceGradient: 0
-    decalNormalBufferHP: 0
+    supportDecalLayers: 1
+    supportSurfaceGradient: 1
+    decalNormalBufferHP: 1
     msaaSampleCount: 1
     supportMotionVectors: 1
-    supportRuntimeAOVAPI: 0
+    supportRuntimeAOVAPI: 1
     supportDitheringCrossFade: 1
-    supportTerrainHole: 0
+    supportTerrainHole: 1
     supportProbeVolume: 0
     probeVolumeMemoryBudget: 1024
     probeVolumeSHBands: 1
-    supportRayTracing: 0
+    supportRayTracing: 1
     supportedRayTracingMode: 3
     lightLoopSettings:
       cookieAtlasSize: 512
@@ -71,10 +71,10 @@ MonoBehaviour:
       maxPunctualLightsOnScreen: 512
       maxAreaLightsOnScreen: 64
       maxEnvLightsOnScreen: 32
-      maxDecalsOnScreen: 512
+      maxDecalsOnScreen: 1204
       maxPlanarReflectionOnScreen: 16
       maxLightsPerClusterCell: 16
-      maxLocalVolumetricFogSize: 64
+      maxLocalVolumetricFogSize: 128
       maxLocalVolumetricFogOnScreen: 64
     hdShadowInitParams:
       maxShadowRequests: 128
@@ -109,7 +109,7 @@ MonoBehaviour:
       maxScreenSpaceShadowSlots: 4
       screenSpaceShadowBufferFormat: 48
     decalSettings:
-      drawDistance: 1000
+      drawDistance: 2000
       atlasWidth: 2048
       atlasHeight: 2048
       perChannelMask: 1
@@ -118,7 +118,7 @@ MonoBehaviour:
       lutFormat: 48
       bufferFormat: 74
     dynamicResolutionSettings:
-      enabled: 0
+      enabled: 1
       useMipBias: 0
       enableDLSS: 0
       DLSSPerfQualitySetting: 0
