@@ -78,10 +78,10 @@ Material:
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
     - _EmiExpo: -0.113
-    - _EmiTimer: 3.2
+    - _EmiTimer: 4.4
     - _Emicointrast: 1
     - _Eminit: 14
-    - _Eminoise: 7.34
+    - _Eminoise: 9.7
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _Metalic: 0.223
@@ -105,7 +105,7 @@ Material:
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
-    - _Subtrack: 0.065
+    - _Subtrack: 0
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _TransparentBackfaceEnable: 0
