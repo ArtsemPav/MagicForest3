@@ -1553,7 +1553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5375439541968590812}
   - component: {fileID: 5554025435494166581}
-  - component: {fileID: 970819535280025806}
+  - component: {fileID: 3003467863465164360}
   m_Layer: 0
   m_Name: EmperorAngelfish
   m_TagString: Untagged
@@ -1600,7 +1600,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &970819535280025806
+--- !u!114 &3003467863465164360
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1609,10 +1609,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4743052802435059046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccf64d7c51af4aa46bea76d32b03214d, type: 3}
+  m_Script: {fileID: 11500000, guid: fa1613085b5245f42b307b30a58e81c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  FOVAngle: 270
+  smoothDamp: 1
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 0
+  directionsToCheckWhenAvoidingObstacles: []
 --- !u!1 &4857721369924528738
 GameObject:
   m_ObjectHideFlags: 0
