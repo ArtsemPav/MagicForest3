@@ -123,7 +123,7 @@ Material:
     m_Colors:
     - _Color: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EMIColor: {r: 0.9784366, g: 0.17680372, b: 0, a: 0}
+    - _EMIColor: {r: 0.17519839, g: 0, b: 0.98039216, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2093135173531970746
