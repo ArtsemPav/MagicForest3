@@ -3948,7 +3948,12 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'RingFinger3_L'\n\tTransform 'Hip_L'\n\tTransform
+    'RingFinger1_R'\n\tTransform 'PinkyFinger1_R'\n\tTransform 'Wrist_L'\n\tTransform
+    'ThumbFinger3_L'\n\tTransform 'PinkyFinger2_R'\n\tTransform 'ThumbFinger2_L'\n\tTransform
+    'Ankle_L'\n\tTransform 'Root_M'\n\tand more ..."
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -9732,8 +9737,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556556410}
-  m_LocalRotation: {x: -0.009037986, y: -0.9775364, z: -0.20616657, w: 0.042853504}
-  m_LocalPosition: {x: 95.97, y: 12.51, z: 103.29}
+  m_LocalRotation: {x: 0, y: -0.3027217, z: 0, w: 0.95307904}
+  m_LocalPosition: {x: 23.98, y: 18.54, z: 188.12001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17720,7 +17725,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!320 &1048275310
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -27048,7 +27053,7 @@ GameObject:
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!320 &1735438900
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -27081,6 +27086,8 @@ PlayableDirector:
   - key: {fileID: -8334808297798881653, guid: d3d9c6e0a3857034f87fe8bf05525c79, type: 2}
     value: {fileID: 424606904}
   - key: {fileID: -4063918257428102468, guid: d3d9c6e0a3857034f87fe8bf05525c79, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5881675329864125752, guid: d3d9c6e0a3857034f87fe8bf05525c79, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References:
