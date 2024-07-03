@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4964529874692721805}
   - component: {fileID: 4964529874692721842}
-  - component: {fileID: 4641141172107340460}
   m_Layer: 0
   m_Name: XicochhLOD
   m_TagString: Untagged
@@ -63,19 +62,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 5758897737803259768}
   m_Enabled: 1
---- !u!65 &4641141172107340460
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4964529874692721843}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.1, y: 1, z: 1}
-  m_Center: {x: 0.16, y: -0.12, z: -0.38}
 --- !u!1001 &4964529875037155712
 PrefabInstance:
   m_ObjectHideFlags: 0
