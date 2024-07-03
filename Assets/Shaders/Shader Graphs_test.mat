@@ -84,7 +84,7 @@ Material:
     - _Eminoise: 9.7
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Metalic: 0
+    - _Metalic: 0.693
     - _NormalMap_Strenght: 2.4
     - _OpaqueCullMode: 2
     - _RayTracing: 0
@@ -93,7 +93,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smooth: 1
+    - _Smooth: 0.552
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
