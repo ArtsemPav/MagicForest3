@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7593b3a9277ac4696b20006c21dde2, type: 3}
   m_Name: VisualEnvironment
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   skyType:
     m_OverrideState: 1
     m_Value: 4
@@ -781,7 +781,7 @@ MonoBehaviour:
     m_Value: 5
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.7412399, g: 0.65033305, b: 0.65033305, a: 1}
+    m_Value: {r: 0.81132066, g: 0.81132066, b: 0.81132066, a: 1}
   hueShift:
     m_OverrideState: 1
     m_Value: 5
