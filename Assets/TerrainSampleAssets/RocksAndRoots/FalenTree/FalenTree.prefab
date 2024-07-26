@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1162621600164035841}
   - component: {fileID: 1596505250668236427}
-  - component: {fileID: 7671820303321453395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FalenTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 8188461962907761906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 59.761684, y: 13.255687, z: 125.68235}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6449865499977488664}
@@ -50,11 +49,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.40501487
+  - screenRelativeHeight: 0.78529257
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5316968454210413175}
-  - screenRelativeHeight: 0.10778423
+  - screenRelativeHeight: 0.43656725
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 3078756274915577748}
@@ -63,20 +62,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 9103401313947802561}
   m_Enabled: 1
---- !u!136 &7671820303321453395
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8188461962907761906}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.58
-  m_Height: 6.22
-  m_Direction: 0
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4429401442955793168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,6 +128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Aset_wood_log_L_rdeu3_LOD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ea8615881ac22304fa5811971b45a127,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8615881ac22304fa5811971b45a127, type: 3}
@@ -225,6 +215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aset_wood_log_L_rdeu3_LOD0
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c0c244bdb2be090498907abb2263ca74,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0c244bdb2be090498907abb2263ca74, type: 3}
 --- !u!23 &5316968454210413175 stripped
@@ -233,6 +228,26 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 6775734920045788915}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5965394646967567266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c0c244bdb2be090498907abb2263ca74,
+    type: 3}
+  m_PrefabInstance: {fileID: 6775734920045788915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1586294641
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5965394646967567266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3972717452710706470, guid: c0c244bdb2be090498907abb2263ca74, type: 3}
 --- !u!4 &6449865499977488664 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c0c244bdb2be090498907abb2263ca74,
@@ -305,6 +320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Aset_wood_log_L_rdeu3_LOD4
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 929ba1871881d4e4ea1e0a23fffd2096,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 929ba1871881d4e4ea1e0a23fffd2096, type: 3}

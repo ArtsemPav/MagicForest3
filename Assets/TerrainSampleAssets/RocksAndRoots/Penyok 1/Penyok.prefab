@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6277680575533489432}
   - component: {fileID: 2408065432841530221}
   - component: {fileID: 1242095594639057854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Penyok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,11 +50,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6
+  - screenRelativeHeight: 0.77443355
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 3952891720858138388}
-  - screenRelativeHeight: 0.3
+  - screenRelativeHeight: 0.531637
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5512099312840726820}
@@ -144,6 +144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aset_wood_stump_M_rcnxx_LOD0
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d6aad448fdf4d34b929cbc23be554ad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6aad448fdf4d34b929cbc23be554ad, type: 3}
 --- !u!4 &2778812019188108411 stripped
@@ -225,6 +230,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aset_wood_stump_M_rcnxx_LOD5
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ea70a8f82dadbc741ab0c45fa3252833,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea70a8f82dadbc741ab0c45fa3252833, type: 3}
 --- !u!4 &5121374329208521007 stripped
@@ -305,6 +315,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Aset_wood_stump_M_rcnxx_LOD3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ab3118939c956d544a5aaec55e7afefb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab3118939c956d544a5aaec55e7afefb, type: 3}

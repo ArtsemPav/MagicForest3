@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 5038631400534845731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 56.322323, y: 16.621258, z: 87.412674}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.3284, y: 2.3284, z: 2.3284}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5018773671646209757}
@@ -49,11 +49,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6
+  - screenRelativeHeight: 0.8342422
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6191720292357889458}
-  - screenRelativeHeight: 0.3
+  - screenRelativeHeight: 0.45386076
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1053044241191436751}

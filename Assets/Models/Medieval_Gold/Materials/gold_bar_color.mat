@@ -170,11 +170,11 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
-    - _EmiExpo: -0.137
-    - _EmiTimer: 20
-    - _Emicointrast: 0.83
-    - _Eminit: 4.7
-    - _Eminoise: 10
+    - _EmiExpo: -0.742
+    - _EmiTimer: 5.5
+    - _Emicointrast: 0.61
+    - _Eminit: 17.2
+    - _Eminoise: 4.11
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -236,7 +236,7 @@ Material:
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
     - _SubsurfaceMask: 1
-    - _Subtrack: 0.538
+    - _Subtrack: 0.072
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _TexWorldScale: 1
@@ -265,7 +265,7 @@ Material:
     - _Color: {r: 0.58799994, g: 0.58799994, b: 0.58799994, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EMIColor: {r: 0.9137466, g: 0.70061636, b: 0, a: 0}
+    - _EMIColor: {r: 0.62449497, g: 1, b: 0.27897573, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}

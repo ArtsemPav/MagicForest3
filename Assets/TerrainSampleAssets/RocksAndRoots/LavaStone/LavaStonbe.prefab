@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4708816288516720132}
   - component: {fileID: 1017037219663259072}
-  - component: {fileID: 5298469681499542435}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LavaStonbe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 5620976607928527591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 154.0403, y: 27.801708, z: 56.648235}
-  m_LocalScale: {x: 8, y: 8, z: 8}
+  m_LocalScale: {x: 58.027126, y: 58.027126, z: 58.02712}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3649403065245172741}
@@ -50,11 +49,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.0275357
+  - screenRelativeHeight: 0.7010629
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2517059313407033194}
-  - screenRelativeHeight: 0.0265357
+  - screenRelativeHeight: 0.41458675
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5357322872607326924}
@@ -63,19 +62,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4566223426771609800}
   m_Enabled: 1
---- !u!65 &5298469681499542435
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5620976607928527591}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.58, y: 0.2, z: 0.56}
-  m_Center: {x: 0.03, y: 0.18, z: 0}
 --- !u!1001 &2927315166274745420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -142,6 +128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Aset_rock_volcanic_M_qjmvT_LOD5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5414b65e3dcdd0a4fad8dd0e775502f2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5414b65e3dcdd0a4fad8dd0e775502f2, type: 3}
@@ -224,6 +215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aset_rock_volcanic_M_qjmvT_LOD0
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c4117c8248200843ad7e6e56e581cfb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c4117c8248200843ad7e6e56e581cfb, type: 3}
 --- !u!23 &2517059313407033194 stripped
@@ -238,6 +234,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3832547605667406830}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4174441495192493759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c4117c8248200843ad7e6e56e581cfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 3832547605667406830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1474308700
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4174441495192493759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1634279417831781045, guid: 8c4117c8248200843ad7e6e56e581cfb, type: 3}
+--- !u!64 &1716024584
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4174441495192493759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1634279417831781045, guid: 8c4117c8248200843ad7e6e56e581cfb, type: 3}
+--- !u!64 &855858583
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4174441495192493759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1634279417831781045, guid: 8c4117c8248200843ad7e6e56e581cfb, type: 3}
 --- !u!1001 &6744313500756565576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -304,6 +348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Aset_rock_volcanic_M_qjmvT_LOD3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9fc8873419ebdcb4eae645362d320a2c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fc8873419ebdcb4eae645362d320a2c, type: 3}

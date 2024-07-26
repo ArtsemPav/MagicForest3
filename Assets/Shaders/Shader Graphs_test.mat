@@ -80,12 +80,12 @@ Material:
     - _EmiExpo: -0.113
     - _EmiTimer: 4.4
     - _Emicointrast: 1
-    - _Eminit: 14
+    - _Eminit: 14.6
     - _Eminoise: 9.7
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _Metalic: 0.693
-    - _NormalMap_Strenght: 2.4
+    - _NormalMap_Strenght: 4.3
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 1
